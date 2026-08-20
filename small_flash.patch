@@ -1,8 +1,8 @@
 --- a/target/linux/ath79/tiny/target.mk
 +++ b/target/linux/ath79/tiny/target.mk
-@@ -1,5 +1,5 @@
+@@ -1,5 +1,4 @@
  BOARDNAME:=Devices with small flash
 -FEATURES += small_flash
  
- DEFAULT_PACKAGES += wpad-mini
+ DEFAULT_PACKAGES += wpad-basic-openssl
  
