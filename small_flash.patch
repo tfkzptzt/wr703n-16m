@@ -2,8 +2,7 @@
 +++ b/target/linux/ath79/tiny/target.mk
 @@ -1,5 +1,5 @@
  BOARDNAME:=Devices with small flash
--FEATURES += squashfs small_flash
-+FEATURES += squashfs
+-FEATURES += small_flash
  
  DEFAULT_PACKAGES += wpad-mini
  
